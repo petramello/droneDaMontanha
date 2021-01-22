@@ -5,26 +5,26 @@ import { ToolbarContainer, LinksContainer } from './styled'
 import IconsSocialMedia from '../../Icons/SocialMedia'
 
 const NavigationItems = () => {
-  const [hideIcons, setHideIcons] = useState(false)
-
-  useEffect(() => {
-    window.addEventListener('scroll', hiddenIcons)
-
-    return () => window.removeEventListener('scroll', hiddenIcons)
-  }, [])
-
-  const hiddenIcons = () => {
-    if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-      setHideIcons(true)
-    } else {
-      setHideIcons(false)
-    }
-  }
+  // const [hideIcons, setHideIcons] = useState(false)
+  //
+  // useEffect(() => {
+  //   window.addEventListener('scroll', hiddenIcons)
+  //
+  //   return () => window.removeEventListener('scroll', hiddenIcons)
+  // }, [])
+  //
+  // const hiddenIcons = () => {
+  //   if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+  //     setHideIcons(true)
+  //   } else {
+  //     setHideIcons(false)
+  //   }
+  // }
 
   return (
     <ToolbarContainer>
-      {hideIcons ? null : <IconsSocialMedia />}
-
+      {/* {hideIcons ? null : <IconsSocialMedia />} */}
+      <IconsSocialMedia />
       <LinksContainer>
         <NavigationItem link="/" exact>
           PÁGINA INICIAL
