@@ -1,0 +1,89 @@
+.header-slideshow,
+.header-slideshow:after {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    top: 0;
+    z-index: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-slideshow:after {
+    content: '';
+    background: rgba(0, 0, 0, 0.2) repeat ;
+}
+
+.header-slideshow li span {
+    width: 100%;
+    height: 610px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 30s linear infinite 0s;
+}
+
+.header-slideshow li:nth-child(1) span {
+    background-image: url(../../assets/imgHome/capaVideoooooDrone.png);
+    background-size: cover;
+}
+.header-slideshow li:nth-child(2) span {
+    background-image: url(../../assets/imgHome/capaPicoDoItaguare_FotoGabrielTarso.jpg);
+    background-size: cover;
+    animation-delay: 10s;
+}
+.header-slideshow li:nth-child(3) span {
+    background-image: url(../../assets/imgHome/capaBarracaNoite.jpg);
+    background-size: cover;
+    animation-delay: 20s;
+}
+.header-slideshow li:nth-child(2) div {
+    animation-delay: 10s;
+}
+.header-slideshow li:nth-child(3) div {
+    animation-delay: 20s;
+}
+
+@keyframes imageAnimation {
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    8% { opacity: 1 }
+    25% { opacity: 1 }
+    50% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+.no-cssanimations .header-slideshow li span{
+    opacity: 1;
+}
+
+@media(max-width: 399px) {
+
+    .header-slideshow,
+    .header-slideshow:after {
+        width: 110%;
+        height: 440px;
+    }
+
+    .header-slideshow li span {
+        width: 110%;
+        height: 440px;
+    }
+
+    .header-slideshow li:nth-child(1) span {
+        background-size: 100% 440px;
+    }
+    .header-slideshow li:nth-child(2) span {
+        background-size:110% 440px;
+    }
+    .header-slideshow li:nth-child(3) span {
+        background-size: 110% 440px;
+    }
+}
+
