@@ -10,12 +10,11 @@ export const HomeBannerContainer = styled.div`
   text-decoration: none;
   background-image: url(${testaItaguare});
   background-size: cover;
+  overflow: hidden;
 
   @media (max-width: 399px) {
-    width: 110%;
-    height: 400px;
-    background-size: 100% 400px;
-    margin-top: -45px;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 `
 

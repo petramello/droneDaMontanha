@@ -9,6 +9,7 @@ export const BannerVideoContainer = styled.div`
   text-decoration: none;
   margin-top: 80px;
   margin-bottom: 10px;
+  overflow: hidden;
 `
 
 export const BannerContactTitle = styled.h1`

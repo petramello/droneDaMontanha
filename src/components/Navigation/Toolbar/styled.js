@@ -13,10 +13,7 @@ export const ToolbarContainer = styled.header`
   color: #ede7e3ff;
   font-weight: bold;
   font-family: 'NexaRegular', sans-serif;
-
-  @media (max-width: 600px) {
-    display: none;
-  }
+  overflow: hidden;
 `
 export const LogoLink = styled.a`
   height: 100%;

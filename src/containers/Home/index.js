@@ -9,8 +9,10 @@ import {
   HomeTitle,
   HomeTitleContainer,
   ImgProfile,
+  InstaFrame,
   InstaSubtitle,
   InstaTitle,
+  OverHiddenContainer,
   ResumeProfile,
   ShortProfile,
   SignProfile
@@ -21,8 +23,8 @@ import BoxCard from '../../components/BoxCard'
 
 const Home = () => {
   return (
-    <>
-      <header>
+    <OverHiddenContainer>
+      <header id="header-id">
         <ul className="header-slideshow">
           <li>
             <span>Image 01</span>
@@ -54,11 +56,8 @@ const Home = () => {
         <InstaTitle>INSTAGRAM</InstaTitle>
         <Container>
           {/* eslint-disable-next-line jsx-a11y/iframe-has-title */}
-          <iframe
+          <InstaFrame
             src="https://www.juicer.io/api/feeds/drone_da_montanha/iframe?per=8"
-            frameBorder="0"
-            width="80%"
-            height="100%"
             data-truncate="400"
             data-gutter="10"
           />
@@ -73,7 +72,7 @@ const Home = () => {
         </ResumeProfile>
         <SignProfile>SAMUEL OSCAR</SignProfile>
       </ShortProfile>
-    </>
+    </OverHiddenContainer>
   )
 }
 export default Home

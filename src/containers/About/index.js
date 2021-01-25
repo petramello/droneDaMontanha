@@ -26,12 +26,13 @@ import {
   ResumeLongProfile,
   LongSignProfile,
   ServicesTextLinkContainer,
-  ServicesTitleLink
+  ServicesTitleLink,
+  AboutContainer
 } from './styled'
 
 const About = () => {
   return (
-    <>
+    <AboutContainer>
       <LongProfile>
         <div>
           <ImgLongProfile src={profileImg} alt="Foto do Filmmeker Samual Oscar" />
@@ -122,7 +123,7 @@ const About = () => {
           </ServicesTextContainer>
         </ServiceContainer>
       </ServicesContainer>
-    </>
+    </AboutContainer>
   )
 }
 export default About

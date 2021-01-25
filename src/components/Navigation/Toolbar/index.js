@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom'
 
 import Logo from '../../Logo'
 import NavigationItems from '../NavigationItems'
-import MenuToggle from '../SideMenu/MenuToggle'
 
 import { ToolbarContainer, LogoLink } from './styled'
 
@@ -16,7 +15,6 @@ const Toolbar = () => {
         </NavLink>
       </LogoLink>
       <NavigationItems />
-      <MenuToggle />
     </ToolbarContainer>
   )
 }

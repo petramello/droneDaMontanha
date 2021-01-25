@@ -10,10 +10,11 @@ import video3 from '../../assets/videoGallery/equilibrio_SamuelOscar.mp4'
 import video4 from '../../assets/videoGallery/monteRoraima.mp4'
 import bannerVideos from '../../assets/imgCovers/picoDosMarinsNoiteLuaCheia.jpg'
 import Banner from '../../components/Banner'
+import { OverHiddenContainer } from '../Home/styled'
 
 export default function VideosGallery() {
   return (
-    <>
+    <OverHiddenContainer>
       <Banner imgBack={bannerVideos} subtitle="@dronedamontanha">
         VIDEOS
       </Banner>
@@ -41,6 +42,6 @@ export default function VideosGallery() {
           Your browser does not support the index tag.
         </NarrowVideo>
       </GalleryContainer>
-    </>
+    </OverHiddenContainer>
   )
 }

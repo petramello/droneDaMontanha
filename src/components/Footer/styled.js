@@ -10,10 +10,7 @@ export const FooterContainer = styled.div`
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-
-  @media (max-width: 399px) {
-    width: 120%;
-  }
+  overflow: hidden;
 `
 
 export const IconsFooterContainer = styled(IconsContainer)`
@@ -22,6 +19,12 @@ export const IconsFooterContainer = styled(IconsContainer)`
   margin: 2% auto 2% 38%;
   text-align: center;
   justify-self: center;
+
+  @media (max-width: 399px) {
+    padding: 0;
+    margin: 2% auto 4% 25%;
+    justify-content: center;
+  }
 `
 
 export const CopyrightText = styled.p`

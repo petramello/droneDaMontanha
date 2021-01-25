@@ -12,6 +12,7 @@ import serraFina from '../../assets/imgPortfolio/Travessia Serra Fina - Brasil -
 import ondeTudoFazSentido from '../../assets/videoPortfolio/Montanha - Onde Tudo faz Sentido.mp4'
 import { PortContainer, PortIconContainer, PortLink } from './styled'
 import Banner from '../../components/Banner'
+import { OverHiddenContainer } from '../Home/styled'
 
 const midias = [
   {
@@ -102,7 +103,7 @@ export default function Portfolio() {
   }
 
   return (
-    <>
+    <OverHiddenContainer>
       <Banner subtitle="@dronedamontanha">PORTFÓLIO</Banner>
       <PortIconContainer>
         <PortLink to="/galeriadevideos">
@@ -131,6 +132,6 @@ export default function Portfolio() {
           })}
         </div>
       </PortContainer>
-    </>
+    </OverHiddenContainer>
   )
 }

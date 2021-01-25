@@ -1,12 +1,14 @@
 import styled from 'styled-components'
 
 export const VideoContainer = styled.video`
-  display: flex;
+  display: inline-flex;
   width: 100%;
+  height: fit-content;
   position: relative;
   margin: 0 auto;
   padding: 0;
   text-decoration: none !important;
+  overflow: hidden;
 
   &:hover,
   &:focus,

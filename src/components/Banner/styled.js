@@ -13,6 +13,7 @@ export const BannerContainer = styled.div`
   background-repeat: no-repeat;
   margin-top: 80px;
   margin-bottom: 10px;
+  overflow: hidden;
 `
 
 export const BannerTitle = styled.h1`

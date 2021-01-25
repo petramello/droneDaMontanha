@@ -2,6 +2,10 @@ import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
 import { ImgProfile, ResumeProfile, SignProfile } from '../Home/styled'
 
+export const AboutContainer = styled.div`
+  overflow: hidden;
+`
+
 export const LongProfile = styled.section`
   position: relative;
   display: inline-flex;
