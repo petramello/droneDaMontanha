@@ -8,7 +8,7 @@ export const Container = styled.section`
   position: relative;
   display: flex;
   width: 100%;
-  height: 520px;
+  height: 620px;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
@@ -17,16 +17,16 @@ export const Container = styled.section`
   overflow: hidden;
 
   @media (max-width: 399px) {
-    height: 400px;
+    height: 380px;
   }
 `
 
 export const HomeTitleContainer = styled.div`
   z-index: 100;
-  margin: -350px 0 0 0;
+  margin: -400px 0 0 0;
   padding: 0;
   position: absolute;
-  height: 90px;
+  height: 120px;
   width: 100%;
   display: inline;
   color: black;
@@ -36,6 +36,7 @@ export const HomeTitleContainer = styled.div`
 
   @media (max-width: 399px) {
     font-size: 0.7em;
+    margin: -250px 0 0 0;
   }
 `
 
@@ -62,7 +63,7 @@ export const InstaFrame = styled.iframe`
 
   @media (max-width: 399px) {
     justify-content: center;
-    width: 55%;
+    width: 50%;
     height: 75%;
     padding: 0;
     margin: 0;
@@ -79,7 +80,7 @@ export const InstaSubtitle = styled.h3`
 
   @media (max-width: 399px) {
     justify-content: center;
-    padding-top: 0;
+    padding-top: 50px;
   }
 `
 
@@ -129,7 +130,8 @@ export const ImgProfile = styled.img`
 
   @media (max-width: 399px) {
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 50px;
+    margin-bottom: 20px;
     box-shadow: 0 0 0.5em 0 #242424;
     height: 75%;
     width: 35%;
@@ -161,7 +163,7 @@ export const SignProfile = styled.h1`
     position: relative;
     display: inline-flex;
     text-align: left;
-    margin: 0 0px 20px -60px;
+    margin: 0 0 40px -60px;
     font-size: 0.5em;
   }
 `

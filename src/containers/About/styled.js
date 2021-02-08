@@ -15,7 +15,11 @@ export const LongProfile = styled.section`
   text-align: center;
   font-family: 'NexaLight', sans-serif;
   color: #242424;
-  margin: 130px auto 20px auto;
+  margin: 190px auto 20px 40px;
+
+  @media (max-width: 399px) {
+    display: inline;
+  }
 `
 
 export const ImgLongProfile = styled(ImgProfile)`
@@ -24,19 +28,34 @@ export const ImgLongProfile = styled(ImgProfile)`
   border-radius: 50%;
   box-shadow: none;
   opacity: 90%;
+
+  @media (max-width: 399px) {
+    margin: 140px auto 10px auto;
+    width: 50%;
+  }
 `
 
 export const BackLongProfile = styled.img`
   position: absolute;
   margin-top: -480px;
   margin-left: -300px;
-  width: 70%;
+  width: 60%;
   border-radius: 80%;
   box-shadow: 0 0 1.5em 0 r#242424;
   z-index: -200;
+
+  @media (max-width: 399px) {
+    margin-top: 65px;
+    margin-left: -400px;
+    width: 600px;
+  }
 `
 export const ResumeLongProfile = styled(ResumeProfile)`
-  padding: 40px 0px 20px 40px;
+  padding: 40px 0px 10px 40px;
+
+  @media (max-width: 399px) {
+    padding: 10px 0;
+  }
 `
 
 export const LongSignProfile = styled(SignProfile)`
@@ -48,8 +67,12 @@ export const ServicesContainer = styled.div`
   width: 100%;
   position: relative;
   font-family: 'NexaLight', sans-serif;
-  margin: 50px 0px 40px 140px;
+  margin: 30px 0px 40px 180px;
   justify-content: center;
+
+  @media (max-width: 399px) {
+    margin: 20px 0px 20px 60px;
+  }
 `
 
 export const ServiceTopic = styled.div`
@@ -59,6 +82,7 @@ export const ServiceTopic = styled.div`
   padding-bottom: 50px;
   left: -5%;
   font-family: 'NexaRegular', sans-serif;
+  }
 `
 
 export const ServicesTitle = styled.h1`
@@ -68,6 +92,11 @@ export const ServicesTitle = styled.h1`
   font-weight: bold;
   padding-bottom: 0;
   margin: 0;
+
+  @media (max-width: 399px) {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+  }
 `
 
 export const ServicesTitleLink = styled(ServicesTitle)`
@@ -90,6 +119,14 @@ export const ServiceContainer = styled.div`
   left: -5%;
   height: 200px;
   width: 45%;
+
+  @media (max-width: 399px) {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin-top: 8px;
+    font-size: 1em;
+  }
 `
 
 export const ServiceNavLink = styled(NavLink)`
@@ -123,6 +160,14 @@ export const ServiceLinkContainer = styled.div`
   &:hover,
   &:focus {
     color: #084d6e !important;
+  }
+
+  @media (max-width: 399px) {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin-top: 8px;
+    font-size: 1em;
   }
 `
 

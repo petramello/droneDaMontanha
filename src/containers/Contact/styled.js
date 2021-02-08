@@ -7,15 +7,25 @@ export const ContactContainer = styled.section`
   color: #0f1011;
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 450px;
   margin-top: 30px;
   display: inline-flex;
   overflow: hidden;
+
+  @media (max-width: 399px) {
+    display: inline;
+    width: 100%;
+    height: 100%;
+  }
 `
 export const ContactDiv = styled.div`
   width: 100%;
   height: 100%;
   margin-top: 70px;
+
+  @media (max-width: 399px) {
+    margin-top: 50px;
+  }
 `
 
 export const Contacts = styled.div`
@@ -27,6 +37,14 @@ export const Contacts = styled.div`
   display: inline;
   background-image: url(${blueBrushBackgroung});
   background-size: contain;
+
+  @media (max-width: 399px) {
+    margin-top: 12px;
+    padding-top: 12px;
+    display: inline-block;
+    background-image: url(${blueBrushBackgroung});
+    background-size: cover;
+  }
 `
 
 export const ContactLink = styled.a`
@@ -47,6 +65,11 @@ export const ContactLink = styled.a`
     text-decoration: none;
     color: whitesmoke;
   }
+
+  @media (max-width: 399px) {
+    margin-top: 15px;
+    display: inline-block;
+  }
 `
 
 export const FormContainer = styled.div`
@@ -54,6 +77,11 @@ export const FormContainer = styled.div`
   width: 100%;
   text-align: left;
   margin-left: 3%;
+
+  @media (max-width: 399px) {
+    width: 380px;
+    margin: 0;
+  }
 `
 
 export const Form = styled.form`
@@ -73,18 +101,30 @@ export const LabelTitle = styled.label`
   padding: 0 10px;
   margin: 2%;
   width: 100%;
+
+  @media (max-width: 399px) {
+    width: 200px;
+  }
 `
 
 export const Input = styled.input`
   width: ${props => props.widthInput || '317px'};
   margin-left: 10px;
   font-family: 'NexaLight', sans-serif;
+
+  @media (max-width: 399px) {
+    width: 295px;
+  }
 `
 
 export const MsgArea = styled.textarea`
   width: 72%;
   height: 100px;
   font-family: 'NexaLight', sans-serif;
+
+  @media (max-width: 399px) {
+    width: 305px;
+  }
 `
 
 export const Button = styled.button`
@@ -104,10 +144,16 @@ export const Button = styled.button`
   background-color: #16697aff;
   opacity: 90%;
   margin-left: 300px;
+  margin-bottom: 20px;
 
   &:hover {
     color: #ffa62bff !important;
     text-decoration: underline;
     opacity: 100%;
+  }
+
+  @media (max-width: 399px) {
+    margin-left: 250px;
+    margin-bottom: 20px;
   }
 `

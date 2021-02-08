@@ -20,9 +20,8 @@ export const VideoContainer = styled.video`
   }
 
   @media (max-width: 399px) {
-    width: 110%;
-    height: 400px;
+    width: 100%;
+    height: 380px;
     object-fit: fill;
-    margin-top: -40px;
   }
 `

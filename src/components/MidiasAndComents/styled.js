@@ -5,6 +5,11 @@ export const MidiasContainer = styled.div`
   height: 300px;
   width: 100%;
   margin: 10px;
+
+  @media (max-width: 399px) {
+    display: inline;
+    width: 340px;
+  }
 `
 export const MidiaCard = styled.div`
   display: inline-flex;
@@ -14,6 +19,13 @@ export const MidiaCard = styled.div`
   font-family: 'NexaRegular', sans-serif;
   color: #0f1011;
   padding: 30px;
+
+  @media (max-width: 399px) {
+    display: inline;
+    margin: 30px;
+    padding: 20px 0;
+    width: 340px;
+  }
 `
 
 export const MidiaImgDiv = styled.div`
@@ -23,6 +35,11 @@ export const MidiaImgDiv = styled.div`
 
   &:hover {
     text-decoration: none;
+  }
+
+  @media (max-width: 399px) {
+    width: 340px;
+    height: 200px;
   }
 `
 
@@ -34,6 +51,11 @@ export const MidiaImg = styled.div`
   &:hover {
     text-decoration: none;
   }
+
+  @media (max-width: 399px) {
+    width: 340px;
+    height: 200px;
+  }
 `
 
 export const MidiaVideo = styled.video`
@@ -44,6 +66,11 @@ export const MidiaVideo = styled.video`
   &:hover {
     text-decoration: none;
   }
+
+  @media (max-width: 399px) {
+    width: 340px;
+    height: 200px;
+  }
 `
 
 export const MidiaTextContainer = styled.div`
@@ -52,6 +79,12 @@ export const MidiaTextContainer = styled.div`
   height: 250px;
   margin-left: 40px;
   padding: 0;
+
+  @media (max-width: 399px) {
+    width: 280px;
+    margin-left: 30px;
+    height: 100%;
+  }
 `
 
 export const MidiaTitle = styled.h1`

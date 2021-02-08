@@ -8,13 +8,13 @@ export const BoxCardButton = styled.button`
   align-items: center;
   text-align: center;
   color: white;
-  height: 60px;
+  height: 70px;
   width: 140px;
   border: none;
   background-color: ${props => props.buttonColor || 'black'};
   opacity: 50%;
   font-family: 'NexaBold', sans-serif;
-  font-size: 0.8em;
+  font-size: 0.95em;
   font-weight: normal;
   letter-spacing: 2px;
   text-decoration: none;
@@ -25,7 +25,7 @@ export const BoxCardButton = styled.button`
   &:link,
   &:focus {
     text-decoration: none;
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: bold;
     opacity: 100%;
     color: #489fb5ff !important;

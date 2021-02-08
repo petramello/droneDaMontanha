@@ -12,9 +12,13 @@ export const ToolbarContainer = styled.div`
 export const LinksContainer = styled.ol`
   display: inline-flex;
   width: 100%;
-  font-size: 0.8em;
+  font-size: 0.9em;
   height: 20px;
   justify-content: space-between;
   margin-bottom: 1px;
-  margin-right: 40px;
+  margin-right: 50px;
+
+  @media (max-width: 399px) {
+    display: none;
+  }
 `

@@ -63,6 +63,7 @@ const Home = () => {
           />
         </Container>
       </>
+
       <ShortProfile>
         <ImgProfile src={profileImg} alt="Foto do Filmmeker Samual Oscar" />
         <ResumeProfile>

@@ -21,7 +21,7 @@ export default function VideosGallery() {
       <PortIconContainer>
         <PortLink to="/galeriadefotos">
           <FiCamera />
-          Fotos
+          FOTOS
         </PortLink>
       </PortIconContainer>
       <GalleryContainer marginGalleryContainer="40px -95px 40px 125px">

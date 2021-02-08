@@ -7,6 +7,11 @@ export const LogoContainer = styled.div`
   height: 100%;
   box-sizing: border-box;
   border-radius: 5px;
+
+  @media (max-width: 399px) {
+    margin: 15px 12px 0 20px;
+    height: 80%;
+  }
 `
 
 export const LogoImg = styled.img`

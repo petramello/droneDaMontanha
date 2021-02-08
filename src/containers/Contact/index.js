@@ -84,7 +84,7 @@ export default function Contact() {
               <i>
                 <FiMail />
               </i>{' '}
-              samueloscar@dronedamontanha.com
+              samueloscar
             </ContactLink>
             <ContactLink
               href="https://wa.me/5512997234917"

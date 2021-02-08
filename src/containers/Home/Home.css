@@ -6,7 +6,7 @@
 .header-slideshow:after {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 800px;
     top: 0;
     z-index: 0;
     padding: 0;
@@ -22,7 +22,7 @@
 
 .header-slideshow li span {
     width: 100%;
-    height: 610px;
+    height: 800px;
     position: absolute;
     top: 0;
     left: 0;
@@ -73,30 +73,31 @@
 
     .header-slideshow,
     .header-slideshow:after {
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-
+        width: 100%;
+        height: 400px;
     }
 
     .header-slideshow li span {
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-
+        width: 100%;
+        height: 400px;
     }
 
     .header-slideshow li:nth-child(1) span {
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-
     }
+
     .header-slideshow li:nth-child(2) span {
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-
     }
-    .header-slideshow li:nth-child(3) span {
 
-        background-size: contain;
+    .header-slideshow li:nth-child(3) span {
+        background-size: cover;
         background-repeat: no-repeat;
     }
 }

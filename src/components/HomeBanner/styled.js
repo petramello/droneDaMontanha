@@ -14,7 +14,8 @@ export const HomeBannerContainer = styled.div`
 
   @media (max-width: 399px) {
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    height: 380px;
   }
 `
 

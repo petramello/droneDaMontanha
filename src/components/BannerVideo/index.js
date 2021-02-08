@@ -1,12 +1,12 @@
 import React from 'react'
-import { BannerVideoContainer, BannerContactSubtitle, BannerContactTitle } from './styled'
+import { BannerVideoContainer, BannerContactSubtitle, BannerContactTitle, ContactVideo } from './styled'
 
 const BannerContactVideo = ({ children, title, subtitle }) => {
   return (
     <BannerVideoContainer>
-      <video loop="true" autoPlay="true" muted width="100%">
+      <ContactVideo loop="true" autoPlay="true" muted width="100%">
         {children}
-      </video>
+      </ContactVideo>
       <BannerContactTitle>{title}</BannerContactTitle>
       <BannerContactSubtitle>{subtitle}</BannerContactSubtitle>
     </BannerVideoContainer>

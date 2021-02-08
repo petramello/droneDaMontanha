@@ -6,14 +6,18 @@ export const BannerContainer = styled.div`
   justify-content: center;
   width: 100%;
   position: relative;
-  height: 380px;
+  height: 400px;
   text-decoration: none;
   background-image: url(${props => props.imgBack || serraFinaII});
-  background-size: 100% 380px;
+  background-size: 100% 400px;
   background-repeat: no-repeat;
   margin-top: 80px;
   margin-bottom: 10px;
   overflow: hidden;
+
+  @media (max-width: 399px) {
+    margin-bottom: 0;
+  }
 `
 
 export const BannerTitle = styled.h1`

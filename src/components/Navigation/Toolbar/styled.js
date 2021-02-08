@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ToolbarContainer = styled.header`
-  height: 85px;
+  height: 100px;
   width: 100%;
   position: fixed;
   top: 0;
@@ -14,6 +14,11 @@ export const ToolbarContainer = styled.header`
   font-weight: bold;
   font-family: 'NexaRegular', sans-serif;
   overflow: hidden;
+
+  @media (max-width: 399px) {
+    width: 200%;
+    height: 80px;
+  }
 `
 export const LogoLink = styled.a`
   height: 100%;

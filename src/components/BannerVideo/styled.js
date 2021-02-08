@@ -12,6 +12,33 @@ export const BannerVideoContainer = styled.div`
   overflow: hidden;
 `
 
+export const ContactVideo = styled.video`
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  overflow: hidden;
+  object-fit: fill;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:link,
+  &:visited {
+    text-decoration: none !important;
+    border: none !important;
+  }
+
+  @media (max-width: 399px) {
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+  }
+`
+
 export const BannerContactTitle = styled.h1`
   position: absolute;
   top: 180px;
