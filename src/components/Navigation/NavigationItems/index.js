@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import { useOnClickOutside } from '../../../hooks/hooks'
 
 import NavigationItem from './NavigationItem'
@@ -9,7 +9,7 @@ import Backdrop from '../../Backdrop'
 
 const NavigationItems = () => {
   // const [hideIcons, setHideIcons] = useState(false)
-
+  //
   // useEffect(() => {
   //   window.addEventListener('scroll', hiddenIcons)
   //
@@ -28,16 +28,6 @@ const NavigationItems = () => {
 
   const node = useRef()
   useOnClickOutside(node, () => setOpen(false))
-
-  // const [showBackdrop, setShowBackdrop] = useState(false)
-  //
-  // const appearBackdrop = () => {
-  //   if (showBackdrop === false) {
-  //     setShowBackdrop(true)
-  //   } else {
-  //     setShowBackdrop(false)
-  //   }
-  // }
 
   return (
     <ToolbarContainer>
