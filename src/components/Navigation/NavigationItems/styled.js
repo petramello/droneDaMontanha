@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const ToolbarContainer = styled.div`
   display: flex;
+  position: relative;
   height: 100%;
   width: 100%;
   align-items: flex-end;

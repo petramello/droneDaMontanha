@@ -1,11 +1,12 @@
 import React from 'react'
+import { bool } from 'prop-types'
 
 import { BackdropContainer } from './styled'
 import NavigationItem from '../Navigation/NavigationItems/NavigationItem'
 
-const Backdrop = () => {
+const Backdrop = ({ open, props }) => {
   return (
-    <BackdropContainer>
+    <BackdropContainer open={open}>
       <NavigationItem link="/" exact>
         PÁGINA INICIAL
       </NavigationItem>
@@ -15,4 +16,8 @@ const Backdrop = () => {
     </BackdropContainer>
   )
 }
+Backdrop.propTypes = {
+  open: bool.isRequired
+}
+
 export default Backdrop

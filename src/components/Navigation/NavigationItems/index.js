@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
+import { useOnClickOutside } from '../../../hooks/hooks'
 
 import NavigationItem from './NavigationItem'
 import { ToolbarContainer, LinksContainer } from './styled'
@@ -23,15 +24,20 @@ const NavigationItems = () => {
   //   }
   // }
 
-  const [showBackdrop, setShowBackdrop] = useState(false)
+  const [open, setOpen] = useState(false)
 
-  const appearBackdrop = () => {
-    if (showBackdrop === false) {
-      setShowBackdrop(true)
-    } else {
-      setShowBackdrop(false)
-    }
-  }
+  const node = useRef()
+  useOnClickOutside(node, () => setOpen(false))
+
+  // const [showBackdrop, setShowBackdrop] = useState(false)
+  //
+  // const appearBackdrop = () => {
+  //   if (showBackdrop === false) {
+  //     setShowBackdrop(true)
+  //   } else {
+  //     setShowBackdrop(false)
+  //   }
+  // }
 
   return (
     <ToolbarContainer>
@@ -45,9 +51,10 @@ const NavigationItems = () => {
         <NavigationItem link="/portfolio">PORTFÓLIO</NavigationItem>
         <NavigationItem link="/contato">CONTATO</NavigationItem>
       </LinksContainer>
-      <SideMenu onClick={appearBackdrop} />
-      {showBackdrop ? null : <Backdrop />}
-      <Backdrop />
+      <SideMenu open={open} setOpen={setOpen} />
+      <div ref={node}>
+        <Backdrop open={open} setOpen={setOpen} />
+      </div>
     </ToolbarContainer>
   )
 }

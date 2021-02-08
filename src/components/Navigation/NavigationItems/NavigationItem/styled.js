@@ -5,12 +5,15 @@ export const NavigationItemContainer = styled.li`
   color: white;
   list-style-type: none;
   padding: 0;
+  position: relative;
+  z-index: 9999;
+  display: flex;
 `
 
 export const NavigationItemLink = styled(NavLink)`
   text-decoration: none;
   width: 100%;
-  display: block;
+  display: flex;
   color: white;
 
   &:hover,

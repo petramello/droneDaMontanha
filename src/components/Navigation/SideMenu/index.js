@@ -1,10 +1,11 @@
 import React from 'react'
+import { bool, func } from 'prop-types'
 
 import { SideBarMenu, SideMenuContainer } from './styled'
 
-const SideMenu = () => {
+const SideMenu = ({ open, setOpen }) => {
   return (
-    <SideMenuContainer>
+    <SideMenuContainer open={open} onClick={() => setOpen(!open)}>
       <SideBarMenu />
       <SideBarMenu />
       <SideBarMenu />
@@ -12,4 +13,9 @@ const SideMenu = () => {
     </SideMenuContainer>
   )
 }
+SideMenu.propTypes = {
+  open: bool.isRequired,
+  setOpen: func.isRequired
+}
+
 export default SideMenu
