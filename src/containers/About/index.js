@@ -4,9 +4,9 @@ import { FiCamera } from 'react-icons/fi'
 import { GiFilmProjector } from 'react-icons/gi'
 import { VscBook } from 'react-icons/vsc'
 import { GrServices } from 'react-icons/gr'
-import droneIcon from '../../assets/imgIcon/copter-2025680_1280.png'
-import profileImg from '../../assets/imgProfile/bwSamu.jpg'
-import backgroundBrush from '../../assets/imgProfile/greenBrushBackground.jpg'
+import droneIcon from '../../assets/imgAbout/copter-2025680_1280.png'
+import profileImg from '../../assets/imgAbout/bwSamu.jpg'
+import backgroundBrush from '../../assets/imgAbout/greenBrushBackground.jpg'
 
 import {
   LongProfile,

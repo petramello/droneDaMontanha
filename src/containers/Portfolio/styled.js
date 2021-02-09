@@ -15,7 +15,7 @@ export const PortIconContainer = styled.div`
   z-index: 90;
   font-style: normal;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     left: 65%;
   }
 `
@@ -33,6 +33,7 @@ export const PortLink = styled(NavLink)`
   border-radius: 10%;
   margin: 5px 0;
   opacity: 90%;
+
   &:hover {
     color: #ffa62bff !important;
     text-decoration: underline;
@@ -52,7 +53,7 @@ export const PortContainer = styled.section`
   margin: 50px auto 0 80px;
   align-content: center;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     margin: 100px 20px 40px 20px;
   }
 `

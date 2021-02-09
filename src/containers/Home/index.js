@@ -2,7 +2,7 @@ import React from 'react'
 
 import Video from '../../components/Video'
 import HomeBanner from '../../components/HomeBanner'
-import profileImg from '../../assets/imgProfile/chapeuSamu.jpg'
+import shortProfileImg from '../../assets/imgHome/chapeuSamu.jpg'
 import {
   Container,
   HomeSubtitle,
@@ -37,7 +37,9 @@ const Home = () => {
           </li>
         </ul>
         <HomeTitleContainer>
-          <BoxCard link="/portfolio">PORTFÓLIO</BoxCard>
+          <BoxCard buttonColor="black" link="/portfolio">
+            PORTFÓLIO
+          </BoxCard>
           <HomeTitle>FOTÓGRAFO & FILMMAKER</HomeTitle>
           <HomeSubtitle>DRONE DA MONTANHA</HomeSubtitle>
         </HomeTitleContainer>
@@ -65,7 +67,7 @@ const Home = () => {
       </>
 
       <ShortProfile>
-        <ImgProfile src={profileImg} alt="Foto do Filmmeker Samual Oscar" />
+        <ImgProfile src={shortProfileImg} alt="Foto do Filmmeker Samual Oscar" />
         <ResumeProfile>
           Meu nome é Samuel Oscar, fotografo & filmmaker, montanhista, escalador e criador de conteúdo, mais conhecido
           pelos filmes e fotos do Drone da Montanha. Vivo ao redor da Serra da Mantiqueira percorrendo os principais

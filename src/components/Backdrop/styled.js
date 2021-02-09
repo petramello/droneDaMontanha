@@ -20,7 +20,7 @@ export const BackdropContainer = styled.div`
   overflow: visible !important;
   z-index: 9999 !important;
 
-  @media (min-width: 400px) {
+  @media (min-width: 481px) {
     display: none;
   }
 `

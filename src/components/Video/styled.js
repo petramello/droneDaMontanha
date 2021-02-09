@@ -19,7 +19,7 @@ export const VideoContainer = styled.video`
     border: none !important;
   }
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 100%;
     height: 380px;
     object-fit: fill;

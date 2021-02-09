@@ -15,7 +15,7 @@ export const SideMenuContainer = styled.div`
     outline: none;
   }
 
-  @media (min-width: 399px) {
+  @media (min-width: 480px), handheld and (orientation: landscape) {
     display: none;
   }
 `
@@ -46,7 +46,7 @@ export const SideBarMenu = styled.div`
     }
   }
 
-  @media (min-width: 399px) {
+  @media(min-width: 480px), handheld and (orientation: landscape)  {
     display: none;
   }
 `

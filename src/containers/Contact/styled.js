@@ -12,7 +12,7 @@ export const ContactContainer = styled.section`
   display: inline-flex;
   overflow: hidden;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     display: inline;
     width: 100%;
     height: 100%;
@@ -23,7 +23,7 @@ export const ContactDiv = styled.div`
   height: 100%;
   margin-top: 70px;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     margin-top: 50px;
   }
 `
@@ -36,9 +36,9 @@ export const Contacts = styled.div`
   position: relative;
   display: inline;
   background-image: url(${blueBrushBackgroung});
-  background-size: contain;
+  background-size: cover;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     margin-top: 12px;
     padding-top: 12px;
     display: inline-block;
@@ -57,6 +57,7 @@ export const ContactLink = styled.a`
   font-weight: bold;
   text-decoration: none;
   color: #0f1011;
+
   &:active {
     text-decoration: none;
     color: whitesmoke;
@@ -66,7 +67,7 @@ export const ContactLink = styled.a`
     color: whitesmoke;
   }
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     margin-top: 15px;
     display: inline-block;
   }
@@ -78,7 +79,7 @@ export const FormContainer = styled.div`
   text-align: left;
   margin-left: 3%;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 380px;
     margin: 0;
   }
@@ -102,7 +103,7 @@ export const LabelTitle = styled.label`
   margin: 2%;
   width: 100%;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 200px;
   }
 `
@@ -112,7 +113,7 @@ export const Input = styled.input`
   margin-left: 10px;
   font-family: 'NexaLight', sans-serif;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 295px;
   }
 `
@@ -122,7 +123,7 @@ export const MsgArea = styled.textarea`
   height: 100px;
   font-family: 'NexaLight', sans-serif;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 305px;
   }
 `
@@ -152,7 +153,7 @@ export const Button = styled.button`
     opacity: 100%;
   }
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     margin-left: 250px;
     margin-bottom: 20px;
   }

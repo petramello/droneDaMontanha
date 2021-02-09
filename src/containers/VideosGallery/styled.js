@@ -6,7 +6,7 @@ export const WideVideo = styled.video`
   object-fit: fill;
   margin-bottom: 50px;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -20,7 +20,7 @@ export const NarrowVideo = styled.video`
   object-fit: fill;
   margin-bottom: 50px;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 100%;
     height: 100%;
     margin: 0;

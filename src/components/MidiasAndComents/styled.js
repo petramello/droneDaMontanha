@@ -6,7 +6,7 @@ export const MidiasContainer = styled.div`
   width: 100%;
   margin: 10px;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     display: inline;
     width: 340px;
   }
@@ -20,7 +20,7 @@ export const MidiaCard = styled.div`
   color: #0f1011;
   padding: 30px;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     display: inline;
     margin: 30px;
     padding: 20px 0;
@@ -37,7 +37,7 @@ export const MidiaImgDiv = styled.div`
     text-decoration: none;
   }
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 340px;
     height: 200px;
   }
@@ -52,7 +52,7 @@ export const MidiaImg = styled.div`
     text-decoration: none;
   }
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 340px;
     height: 200px;
   }
@@ -67,7 +67,7 @@ export const MidiaVideo = styled.video`
     text-decoration: none;
   }
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 340px;
     height: 200px;
   }
@@ -80,7 +80,7 @@ export const MidiaTextContainer = styled.div`
   margin-left: 40px;
   padding: 0;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 280px;
     margin-left: 30px;
     height: 100%;

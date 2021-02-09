@@ -15,7 +15,7 @@ export const ToolbarContainer = styled.header`
   font-family: 'NexaRegular', sans-serif;
   overflow: hidden;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 200%;
     height: 80px;
   }

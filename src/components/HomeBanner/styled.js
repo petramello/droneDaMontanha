@@ -12,7 +12,7 @@ export const HomeBannerContainer = styled.div`
   background-size: cover;
   overflow: hidden;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     background-repeat: no-repeat;
     background-size: cover;
     height: 380px;

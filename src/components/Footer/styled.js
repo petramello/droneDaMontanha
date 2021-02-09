@@ -20,7 +20,7 @@ export const IconsFooterContainer = styled(IconsContainer)`
   text-align: center;
   justify-self: center;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     padding: 0;
     margin: 2% auto 4% 25%;
     justify-content: center;

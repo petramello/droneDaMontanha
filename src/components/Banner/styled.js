@@ -15,7 +15,7 @@ export const BannerContainer = styled.div`
   margin-bottom: 10px;
   overflow: hidden;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     margin-bottom: 0;
   }
 `

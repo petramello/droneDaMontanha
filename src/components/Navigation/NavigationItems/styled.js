@@ -19,7 +19,7 @@ export const LinksContainer = styled.ol`
   margin-bottom: 1px;
   margin-right: 50px;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     display: none;
   }
 `

@@ -7,7 +7,7 @@ export const IconsContainer = styled.ul`
   width: 100%;
   margin-bottom: 7px;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     margin-left: -20px;
   }
 `
@@ -15,7 +15,7 @@ export const IconsContainer = styled.ul`
 export const IconContainer = styled.div`
   margin: 0 8px;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     margin: 0 10px;
   }
 `

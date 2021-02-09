@@ -8,7 +8,7 @@ export const LogoContainer = styled.div`
   box-sizing: border-box;
   border-radius: 5px;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     margin: 15px 12px 0 20px;
     height: 80%;
   }

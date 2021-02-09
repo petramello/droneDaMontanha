@@ -5,8 +5,7 @@ import { FiCamera } from 'react-icons/fi'
 import MidiasAndComments from '../../components/MidiasAndComents'
 
 import pedraDaMina from '../../assets/imgPortfolio/Pico da Pedra da Mina - Serra da Mantiqueira - AUTOMATICO.jpg'
-// eslint-disable-next-line import/no-unresolved
-import jalapao from '../../assets/videoPortfolio/EssênciaDoBrasil_Jalapão.mp4'
+import jalapao from '../../assets/videoPortfolio/EssenciaDoBrasil_Jalapao.mp4'
 import picoDoMarinzinho from '../../assets/imgPortfolio/Pico do Marinzinho - Serra da Mantiqueira - automatico.jpg'
 import reencontroMontanha from '../../assets/videoPortfolio/Reecontro - Montanha.mp4'
 import serraFina from '../../assets/imgPortfolio/Travessia Serra Fina - Brasil - automatico.jpg'

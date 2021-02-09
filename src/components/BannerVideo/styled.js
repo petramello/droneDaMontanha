@@ -32,7 +32,7 @@ export const ContactVideo = styled.video`
     border: none !important;
   }
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 400px;
     height: 400px;
     object-fit: fill;

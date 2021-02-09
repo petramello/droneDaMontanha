@@ -16,7 +16,7 @@ export const Container = styled.section`
   text-decoration: none !important;
   overflow: hidden;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     height: 380px;
   }
 `
@@ -34,7 +34,7 @@ export const HomeTitleContainer = styled.div`
   font-size: 1em;
   font-weight: bold;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     font-size: 0.7em;
     margin: -250px 0 0 0;
   }
@@ -61,7 +61,7 @@ export const InstaFrame = styled.iframe`
   height: 100%;
   border: none;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     justify-content: center;
     width: 50%;
     height: 75%;
@@ -78,7 +78,7 @@ export const InstaSubtitle = styled.h3`
   margin: 0;
   color: black;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     justify-content: center;
     padding-top: 50px;
   }
@@ -93,7 +93,7 @@ export const InstaTitle = styled.h1`
   font-size: 1.4em;
   letter-spacing: 4px;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     font-size: 1em;
     justify-content: center;
     padding-bottom: 0;
@@ -113,7 +113,7 @@ export const ShortProfile = styled.section`
   color: #242424;
   overflow: hidden;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     display: inline;
     justify-content: center;
   }
@@ -128,7 +128,7 @@ export const ImgProfile = styled.img`
   border-radius: 80%;
   box-shadow: 0 0 1em 0 #242424;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -144,7 +144,7 @@ export const ResumeProfile = styled.p`
   font-style: italic;
   margin: auto 120px;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     font-size: 0.7em;
     margin: 25px 60px;
     text-align: center;
@@ -159,7 +159,7 @@ export const SignProfile = styled.h1`
   font-size: 0.7em;
   color: #0f1011;
 
-  @media (max-width: 399px) {
+  @media (max-width: 480px), handheld and (orientation: landscape) {
     position: relative;
     display: inline-flex;
     text-align: left;
