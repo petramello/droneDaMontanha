@@ -4,9 +4,9 @@ import { FiCamera } from 'react-icons/fi'
 import { GiFilmProjector } from 'react-icons/gi'
 import { VscBook } from 'react-icons/vsc'
 import { GrServices } from 'react-icons/gr'
-import droneIcon from '../../assets/imgAbout/copter-2025680_1280.png'
-import profileImg from '../../assets/imgAbout/bwSamu.jpg'
-import backgroundBrush from '../../assets/imgAbout/greenBrushBackground.jpg'
+import droneIcon from '../../assets/imgAbout/droneIcon.png'
+import longProfileImg from '../../assets/imgAbout/longProfileSamuelOscar.jpg'
+import backgroundGreenBrush from '../../assets/imgAbout/greenBrushBackground.jpg'
 
 import {
   LongProfile,
@@ -35,8 +35,11 @@ const About = () => {
     <AboutContainer>
       <LongProfile>
         <div>
-          <ImgLongProfile src={profileImg} alt="Foto do Filmmeker Samual Oscar" />
-          <BackLongProfile src={backgroundBrush} alt="Background guache verde" />
+          <ImgLongProfile src={longProfileImg} alt="Foto do filmmaker Samual Oscar" />
+          <BackLongProfile
+            src={backgroundGreenBrush}
+            alt="Background de pintura em guache verde extraída do site https://www.onlygfx.com/wp-content/uploads/2018/02/green-watercolor-background-2.jpg"
+          />
         </div>
         <ResumeLongProfile>
           Meu nome é Samuel Oscar, montanhista, escalador, mais conhecido pelos filmes e fotos do Drone da Montanha.
@@ -83,7 +86,7 @@ const About = () => {
             <IndividualServiceIcon>
               <DroneIcon
                 src={droneIcon}
-                alt="Drone vetorial preto e branco disponível no site pixabay da openclipart-vectors"
+                alt="Drone vetorial preto e branco disponível no site pixabay da openclipart-vectors: https://pixabay.com/vectors/copter-drone-float-hover-quad-2025680/"
               />
             </IndividualServiceIcon>
             <ServicesTextLinkContainer>

@@ -10,6 +10,12 @@ export const MidiasContainer = styled.div`
     display: inline;
     width: 340px;
   }
+
+  @media (min-width: 1824px) {
+    width: 180%;
+    height: 350px;
+    margin: 40px 80px;
+  }
 `
 export const MidiaCard = styled.div`
   display: inline-flex;
@@ -26,6 +32,15 @@ export const MidiaCard = styled.div`
     padding: 20px 0;
     width: 340px;
   }
+
+  @media (min-width: 1824px) {
+    @media (min-width: 1824px) {
+      width: 180%;
+      height: 350px;
+      margin-left: 40px;
+      padding: 20px;
+    }
+  }
 `
 
 export const MidiaImgDiv = styled.div`
@@ -40,6 +55,11 @@ export const MidiaImgDiv = styled.div`
   @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 340px;
     height: 200px;
+  }
+
+  @media (min-width: 1824px) {
+    width: 550px;
+    height: 350px;
   }
 `
 
@@ -56,6 +76,11 @@ export const MidiaImg = styled.div`
     width: 340px;
     height: 200px;
   }
+
+  @media (min-width: 1824px) {
+    width: 550px;
+    height: 350px;
+  }
 `
 
 export const MidiaVideo = styled.video`
@@ -70,6 +95,11 @@ export const MidiaVideo = styled.video`
   @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 340px;
     height: 200px;
+  }
+
+  @media (min-width: 1824px) {
+    width: 550px;
+    height: 350px;
   }
 `
 

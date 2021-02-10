@@ -32,7 +32,7 @@ export default function PhotosGallery() {
       <PortIconContainer>
         <PortLink to="/galeriadevideos">
           <GiFilmProjector />
-          Videos
+          VIDEOS
         </PortLink>
       </PortIconContainer>
 

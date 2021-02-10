@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import blueBrushBackgroung from '../../assets/imgContact/7-blue-watercolor-banner-3.jpg'
+import blueBrushBackgroung from '../../assets/imgContact/7-blue-watercolor-banner-5.jpg'
 
 export const ContactContainer = styled.section`
   font-family: 'NexaLight', sans-serif;
@@ -16,6 +16,10 @@ export const ContactContainer = styled.section`
     display: inline;
     width: 100%;
     height: 100%;
+  }
+
+  @media (min-width: 1824px) {
+    height: 530px;
   }
 `
 export const ContactDiv = styled.div`
@@ -156,5 +160,9 @@ export const Button = styled.button`
   @media (max-width: 480px), handheld and (orientation: landscape) {
     margin-left: 250px;
     margin-bottom: 20px;
+  }
+
+  @media (min-width: 1824px) {
+    margin-left: 500px;
   }
 `

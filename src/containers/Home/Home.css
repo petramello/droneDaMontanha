@@ -36,16 +36,16 @@
 }
 
 .header-slideshow li:nth-child(1) span {
-    background-image: url(../../assets/imgHome/capaVideoooooDrone.png);
+    background-image: url(../../assets/imgHome/coverSerraFina.png);
     background-size: cover;
 }
 .header-slideshow li:nth-child(2) span {
-    background-image: url(../../assets/imgHome/capaPicoDoItaguare_FotoGabrielTarso.jpg);
+    background-image: url(../../assets/imgHome/coverPicoItaguare_Tarso.jpg);
     background-size: cover;
     animation-delay: 10s;
 }
 .header-slideshow li:nth-child(3) span {
-    background-image: url(../../assets/imgHome/capaBarracaNoite.jpg);
+    background-image: url(../../assets/imgHome/coverBarracaNoite.jpg);
     background-size: cover;
     animation-delay: 20s;
 }

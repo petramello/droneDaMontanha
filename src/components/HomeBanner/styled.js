@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import testaItaguare from '../../assets/imgHome/testaItaguare_FotoGabrielTarso.jpg'
+import bannerTestaItaguare from '../../assets/imgHome/bannerTestaItaguare_Tarso.jpg'
 
 export const HomeBannerContainer = styled.div`
   display: inline;
@@ -8,7 +8,7 @@ export const HomeBannerContainer = styled.div`
   width: 100%;
   height: 100%;
   text-decoration: none;
-  background-image: url(${testaItaguare});
+  background-image: url(${bannerTestaItaguare});
   background-size: cover;
   overflow: hidden;
 

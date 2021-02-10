@@ -4,11 +4,11 @@ import { GiFilmProjector } from 'react-icons/gi'
 import { FiCamera } from 'react-icons/fi'
 import MidiasAndComments from '../../components/MidiasAndComents'
 
-import pedraDaMina from '../../assets/imgPortfolio/Pico da Pedra da Mina - Serra da Mantiqueira - AUTOMATICO.jpg'
+import pedraDaMina from '../../assets/imgPortfolio/PicoDaPedraDaMina_SerraDaMantiqueira_1920.jpg'
 import jalapao from '../../assets/videoPortfolio/EssenciaDoBrasil_Jalapao.mp4'
-import picoDoMarinzinho from '../../assets/imgPortfolio/Pico do Marinzinho - Serra da Mantiqueira - automatico.jpg'
+import picoDoMarinzinho from '../../assets/imgPortfolio/PicoDoMarinzinho_SerraDaMantiqueira_1920.jpg'
 import reencontroMontanha from '../../assets/videoPortfolio/Reecontro - Montanha.mp4'
-import serraFina from '../../assets/imgPortfolio/Travessia Serra Fina - Brasil - automatico.jpg'
+import serraFina from '../../assets/imgPortfolio/TravessiaSerraFina_Brasil_1920.jpg'
 import ondeTudoFazSentido from '../../assets/videoPortfolio/Montanha - Onde Tudo faz Sentido.mp4'
 import { PortContainer, PortIconContainer, PortLink } from './styled'
 import Banner from '../../components/Banner'
@@ -17,7 +17,7 @@ import { OverHiddenContainer } from '../Home/styled'
 const midias = [
   {
     portCover: serraFina,
-    portTitle: 'Travessia Serra Fina, Brasil',
+    portTitle: 'Travessia da Serra Fina - Serra da Mantiqueira. SP,MG,RJ - Brasil',
     portCategory: 'photo',
     portPath: '/photos',
     portId: 'p2',
@@ -28,7 +28,7 @@ const midias = [
   },
   {
     portCover: pedraDaMina,
-    portTitle: 'Pico da Pedra da Mina - Serra da Mantiqueira, MG-Brasil',
+    portTitle: 'Pico da Pedra da Mina - Serra da Mantiqueira. MG-Brasil',
     portCategory: 'photo',
     portPath: '/photos',
     portId: 'p1',
@@ -38,7 +38,7 @@ const midias = [
   },
   {
     portCover: picoDoMarinzinho,
-    portTitle: 'Pico do Marinzinho - Serra da Mantiqueira, MG-Brasil',
+    portTitle: 'Pico do Marinzinho - Serra da Mantiqueira. SP-Brasil',
     portCategory: 'photo',
     portPath: '/photos',
     portId: 'p3',
@@ -49,7 +49,7 @@ const midias = [
   },
   {
     portCover: jalapao,
-    portTitle: 'Essência do Brasil - Jalapão, TO-Brasil',
+    portTitle: 'Essência do Brasil - Jalapão. TO-Brasil',
     portCategory: 'video',
     portPath: '/videos',
     portId: 'v1',
@@ -61,7 +61,7 @@ const midias = [
   },
   {
     portCover: reencontroMontanha,
-    portTitle: 'Reecontro - Montanha',
+    portTitle: 'Reecontro - Montanha - Serra da Mantiqueira. MG - Brasil ',
     portCategory: 'video',
     portPath: '/videos',
     portId: 'v2',
@@ -71,7 +71,7 @@ const midias = [
   },
   {
     portCover: ondeTudoFazSentido,
-    portTitle: 'Montanha - Onde Tudo faz Sentido',
+    portTitle: 'Montanha - Onde Tudo faz Sentido - Serra da Mantiqueira. MG-Brasil',
     portCategory: 'video',
     portPath: '/videos',
     portId: 'v2',

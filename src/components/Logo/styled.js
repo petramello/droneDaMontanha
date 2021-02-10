@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const LogoContainer = styled.div`
-  background-color: white;
+  background-color: black;
   padding: 0;
   margin-left: 40px;
   height: 100%;

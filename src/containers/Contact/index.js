@@ -22,7 +22,7 @@ import {
 } from './styled'
 
 import BannerContactVideo from '../../components/BannerVideo/index'
-import videoContato from '../../assets/imgContact/video novvo2.mp4'
+import videoDrone from '../../assets/imgContact/videoDrone.mp4'
 
 export default function Contact() {
   const [contactState, setContactState] = useState({
@@ -68,7 +68,7 @@ export default function Contact() {
   return (
     <div>
       <BannerContactVideo autoplay title="CONTATO" subtitle="@dronedamontanha">
-        <source src={videoContato} type="video/mp4" />
+        <source src={videoDrone} type="video/mp4" alt="Video com drone decolando da mão do filmmaker Samuel Oscar" />
         Your browser does not support the index tag.
       </BannerContactVideo>
 

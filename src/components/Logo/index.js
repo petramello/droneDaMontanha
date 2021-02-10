@@ -1,11 +1,11 @@
 import React from 'react'
 
-import DroneLogoAzul from '../../assets/imgBrand/droneLogoAzul.jpg'
+import logo from '../../assets/imgBrand/logo.png'
 import { LogoContainer, LogoImg } from './styled'
 
 const Logo = () => (
   <LogoContainer>
-    <LogoImg src={DroneLogoAzul} alt="Logotipo do Drone da Montanha" />
+    <LogoImg src={logo} alt="Logotipo da marca Drone da Montanha" />
   </LogoContainer>
 )
 export default Logo
