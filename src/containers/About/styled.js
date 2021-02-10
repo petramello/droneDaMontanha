@@ -29,7 +29,7 @@ export const LongProfile = styled.section`
 
 export const ImgLongProfile = styled(ImgProfile)`
   margin: 50px 20px 30px 100px;
-  width: 70%;
+  width: 100%;
   border-radius: 50%;
   box-shadow: none;
   opacity: 90%;
@@ -40,29 +40,29 @@ export const ImgLongProfile = styled(ImgProfile)`
   }
 
   @media (min-width: 1824px) {
-    margin: 220px auto 0px 40px;
+    margin: 10px auto 0px 40px;
   }
 `
 
 export const BackLongProfile = styled.img`
   position: relative;
-  margin-top: -500px;
-  margin-left: -200px;
-  width: 200%;
+  margin-top: -550px;
+  margin-left: -160px;
+  width: 330%;
   border-radius: 80%;
   box-shadow: 0 0 1.5em 0 r#242424;
   z-index: -200;
 
   @media (max-width: 480px), handheld and (orientation: landscape) {
-    width: 160%;
+    width: 150%;
     top: 100px;
-    left: 75px;
+    left: 50px;
   }
 
   @media (min-width: 1824px) {
-    top: -200px;
-    width: 200%;
-    left: -60px;
+    top: 40px;
+    width: 320%;
+    left: -80px;
     margin-bottom: 0;
   }
 `
