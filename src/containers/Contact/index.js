@@ -67,7 +67,7 @@ export default function Contact() {
 
   return (
     <div>
-      <BannerContactVideo autoplay title="CONTATO" >
+      <BannerContactVideo autoplay title="CONTATO">
         <source src={videoDrone} type="video/mp4" alt="Video com drone decolando da mão do filmmaker Samuel Oscar" />
         Your browser does not support the index tag.
       </BannerContactVideo>
@@ -98,10 +98,10 @@ export default function Contact() {
               12 99723-4917
             </ContactLink>
             <ContactLink
-                href="https://www.instagram.com/drone_da_montanha/"
-                target="_blank"
-                rel="noopener noreferrer"
-                alt="ícone do instagram drone_da_montanha"
+              href="https://www.instagram.com/drone_da_montanha/"
+              target="_blank"
+              rel="noopener noreferrer"
+              alt="ícone do instagram drone_da_montanha"
             >
               <i>
                 <RiInstagramFill />

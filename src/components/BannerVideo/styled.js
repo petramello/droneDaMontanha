@@ -13,7 +13,7 @@ export const BannerVideoContainer = styled.div`
   color: white;
 
   @media (max-width: 480px), handheld and (orientation: landscape) {
-   width: 100%;
+    width: 100%;
     height: 250px;
     object-fit: fill;
     margin-top: 100px;

@@ -120,13 +120,13 @@ export const MidiaTextContainer = styled.div`
 export const MidiaTitle = styled.h1`
   font-family: 'NexaRegular', serif;
   padding: ${props => props.paddingMidiaTitle || '5px 0 10px 0'};
-  font-size:  0.8em;
+  font-size: 0.8em;
   letter-spacing: 4px;
   text-decoration: none;
   color: #0f1011 !important;
 
   @media (max-width: 480px), handheld and (orientation: landscape) {
-    font-size:  ${props => props.fontsizeMidiaTitleSmall || '0.8em'};
+    font-size: ${props => props.fontsizeMidiaTitleSmall || '0.8em'};
     letter-spacing: ${props => props.letterspacingMidiaTitleSmall || '4px'};
   }
 `

@@ -26,7 +26,13 @@ export default function PhotosGallery() {
 
   return (
     <div>
-      <Banner bannerColor="white" fontsizeTitleBanner="1.2em" fontweightTitleBanner="bold" imgBack={bannerFotos} imgBackSmall={backSmall}>
+      <Banner
+        bannerColor="white"
+        fontsizeTitleBanner="1.2em"
+        fontweightTitleBanner="bold"
+        imgBack={bannerFotos}
+        imgBackSmall={backSmall}
+      >
         FOTOGRAFIAS
       </Banner>
 

@@ -32,6 +32,10 @@ export const ContactDiv = styled.div`
     margin-top: 50px;
     height: 550px;
   }
+
+  @media (min-width: 1824px) {
+    margin-top: 120px;
+  }
 `
 
 export const Contacts = styled.div`
