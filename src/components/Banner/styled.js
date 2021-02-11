@@ -1,5 +1,6 @@
 import styled from 'styled-components'
-import serraFinaII from '../../assets/imgCovers/serraFinaII_96_1920.jpg'
+import serraFinaII from '../../assets/imgCovers/bannerCover_SerraFinaII.jpg'
+import serraFinaIISmall from '../../assets/imgCovers/bannerSmall_SerraFinaII.jpg'
 
 export const BannerContainer = styled.div`
   display: inline-flex;
@@ -14,25 +15,29 @@ export const BannerContainer = styled.div`
   margin-top: 80px;
   margin-bottom: 10px;
   overflow: hidden;
+  color: ${props => props.bannerColor || '#0f1011'};
 
   @media (max-width: 480px), handheld and (orientation: landscape) {
-    margin-bottom: 0;
+    margin-bottom: 5px;
+    background-image: url(${props => props.imgBackSmall || serraFinaIISmall});
   }
 `
 
 export const BannerTitle = styled.h1`
-  font-size: 1em;
-  font-family: 'NexaHeavy', sans-serif;
+  font-size: ${props => props.fontsizeTitleBanner || '1em'};
+  font-family: ${props => props.fontTitleBanner || 'NexaHeavy, sans-serif'};
   margin: auto 120px;
   font-style: normal;
+  font-weight: ${props => props.fontweightTitleBanner || 'none'};
 `
+
 export const BannerSubtitle = styled.h2`
   position: absolute;
   top: 200px;
   align-items: center;
   font-family: 'NexaBold', sans-serif;
   font-size: 0.5em;
-  color: #0f1011;
+  color: ${props => props.bannerSubtitleColor || '#0f1011'};
   font-weight: lighter;
   font-style: italic;
 `

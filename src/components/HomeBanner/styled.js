@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import bannerTestaItaguare from '../../assets/imgHome/bannerTestaItaguare_Tarso.jpg'
+import bannerTestaItaguare from '../../assets/imgHome/bannerTestaItaguare.jpg'
 
 export const HomeBannerContainer = styled.div`
   display: inline;

@@ -5,7 +5,7 @@ export const BackdropContainer = styled.div`
   flex-direction: column;
   position: fixed;
   top: 35px;
-  left: 70%;
+  left: 75%;
   width: 110px;
   height: 100px;
   margin: 0;
@@ -16,7 +16,7 @@ export const BackdropContainer = styled.div`
   line-height: 2.5em;
   text-align: center !important;
   cursor: pointer;
-  transform: ${({ open }) => (open ? 'translateX(0%)' : 'translateX(100%)')};
+  transform: ${({ open }) => (open ? 'translateX(-5%)' : 'translateX(100%)')};
   overflow: visible !important;
   z-index: 9999 !important;
 

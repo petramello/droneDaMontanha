@@ -4,10 +4,11 @@ import Carousel, { Modal, ModalGateway } from 'react-images'
 
 import { GiFilmProjector } from 'react-icons/gi'
 import Banner from '../../components/Banner'
-import bannerFotos from '../../assets/imgCovers/picoDosMarinsNoiteLuaCheia.jpg'
+import bannerFotos from '../../assets/imgCovers/bannerCover_PicoDosMarinsNoiteLuaCheia.jpg'
 import { GalleryContainer } from './styled'
 import { PortIconContainer, PortLink } from '../Portfolio/styled'
 import { photos } from './photos'
+import backSmall from '../../assets/imgCovers/bannerSmall_PicoDosMarinsNoiteLuaCheia.jpg'
 
 export default function PhotosGallery() {
   const [currentImage, setCurrentImage] = useState(0)
@@ -25,7 +26,7 @@ export default function PhotosGallery() {
 
   return (
     <div>
-      <Banner imgBack={bannerFotos} subtitle="@dronedamontanha">
+      <Banner bannerColor="white" fontsizeTitleBanner="1.2em" fontweightTitleBanner="bold" imgBack={bannerFotos} imgBackSmall={backSmall}>
         FOTOGRAFIAS
       </Banner>
 

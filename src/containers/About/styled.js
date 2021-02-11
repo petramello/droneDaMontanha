@@ -40,7 +40,7 @@ export const ImgLongProfile = styled(ImgProfile)`
   }
 
   @media (min-width: 1824px) {
-    margin: 10px auto 0px 40px;
+    margin: 10px auto 0 40px;
   }
 `
 
@@ -79,11 +79,17 @@ export const ResumeLongProfile = styled(ResumeProfile)`
 `
 
 export const LongSignProfile = styled(SignProfile)`
-  top: 80%;
-  left: 80%;
+  top: 430px;
+  left: 1100px;
+
+  @media (max-width: 480px), handheld and (orientation: landscape) {
+    top: -10px;
+    left: 290px;
+  }
 
   @media (min-width: 1824px) {
-    top: 62%;
+    top: 400px;
+    left: 1500px;
   }
 `
 

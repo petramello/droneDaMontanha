@@ -5,7 +5,7 @@ export const VideoContainer = styled.video`
   width: 100%;
   height: fit-content;
   position: relative;
-  margin: 0 auto;
+  margin: 0 auto;s
   padding: 0;
   text-decoration: none !important;
   overflow: hidden;
@@ -21,7 +21,7 @@ export const VideoContainer = styled.video`
 
   @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 100%;
-    height: 380px;
+    height: 100%;
     object-fit: fill;
   }
 `

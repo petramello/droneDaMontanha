@@ -25,6 +25,10 @@ export const IconsFooterContainer = styled(IconsContainer)`
     margin: 2% auto 4% 25%;
     justify-content: center;
   }
+
+  @media (min-width: 1824px) {
+    margin: 2% 25% 4% 42%;
+  }
 `
 
 export const CopyrightText = styled.p`

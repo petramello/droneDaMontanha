@@ -7,16 +7,17 @@ export const PortIconContainer = styled.div`
   font-family: 'NexaBold', serif;
   font-size: 0.7em;
   position: fixed;
-  width: 200px;
+  width: 190px;
   height: 60px;
   color: whitesmoke;
-  left: 84%;
+  left: 92%;
   top: 520px;
   z-index: 90;
   font-style: normal;
 
   @media (max-width: 480px), handheld and (orientation: landscape) {
-    left: 65%;
+    left: 75%;
+    top: 520px;
   }
 `
 
@@ -29,9 +30,9 @@ export const PortLink = styled(NavLink)`
   text-align: center;
   justify-content: center;
   padding: 3px 5px;
-  width: 80px;
+  width: 70px;
   border-radius: 10%;
-  margin: 5px 0;
+  margin: 8px 0;
   opacity: 90%;
 
   &:hover {
@@ -45,6 +46,10 @@ export const PortLink = styled(NavLink)`
     text-decoration: none !important;
     color: whitesmoke;
   }
+
+  @media (max-width: 480px), handheld and (orientation: landscape) {
+    width: 60px;
+  }
 `
 export const PortContainer = styled.section`
   width: 100%;
@@ -54,6 +59,6 @@ export const PortContainer = styled.section`
   align-content: center;
 
   @media (max-width: 480px), handheld and (orientation: landscape) {
-    margin: 100px 20px 40px 20px;
+    margin: 80px 20px 40px 20px;
   }
 `

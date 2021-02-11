@@ -5,11 +5,19 @@ export const BannerVideoContainer = styled.div`
   justify-content: center;
   width: 100%;
   position: relative;
-  height: 380px;
+  height: 400px;
   text-decoration: none;
   margin-top: 80px;
   margin-bottom: 10px;
   overflow: hidden;
+  color: white;
+
+  @media (max-width: 480px), handheld and (orientation: landscape) {
+   width: 100%;
+    height: 250px;
+    object-fit: fill;
+    margin-top: 100px;
+  }
 `
 
 export const ContactVideo = styled.video`
@@ -33,8 +41,8 @@ export const ContactVideo = styled.video`
   }
 
   @media (max-width: 480px), handheld and (orientation: landscape) {
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 250px;
     object-fit: fill;
   }
 `
@@ -42,11 +50,17 @@ export const ContactVideo = styled.video`
 export const BannerContactTitle = styled.h1`
   position: absolute;
   top: 180px;
-  font-size: 1em;
-  font-family: 'NexaHeavy', sans-serif;
+  font-size: 1.2em;
+  font-family: 'NexaBlack', sans-serif;
   margin: auto 120px;
   font-style: normal;
+
+  @media (max-width: 480px), handheld and (orientation: landscape) {
+    top: 120px;
+    margin: auto 60px;
+  }
 `
+
 export const BannerContactSubtitle = styled.h2`
   position: absolute;
   top: 200px;

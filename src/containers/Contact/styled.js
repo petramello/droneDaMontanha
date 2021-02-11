@@ -15,7 +15,8 @@ export const ContactContainer = styled.section`
   @media (max-width: 480px), handheld and (orientation: landscape) {
     display: inline;
     width: 100%;
-    height: 100%;
+    height: 800px;
+    font-size: 0.85em;
   }
 
   @media (min-width: 1824px) {
@@ -29,6 +30,7 @@ export const ContactDiv = styled.div`
 
   @media (max-width: 480px), handheld and (orientation: landscape) {
     margin-top: 50px;
+    height: 550px;
   }
 `
 

@@ -104,15 +104,23 @@ export default function Portfolio() {
 
   return (
     <OverHiddenContainer>
-      <Banner subtitle="@dronedamontanha">PORTFÓLIO</Banner>
+      <Banner
+        fontTitleBanner="NexaBlack"
+        fontsizeTitleBanner="1.2em"
+        fontweightTitleBanner="bold"
+        bannerSubtitleColor="white"
+        bannerColor="white"
+      >
+        PORTFÓLIO
+      </Banner>
       <PortIconContainer>
         <PortLink to="/galeriadevideos">
           <GiFilmProjector />
-          GALERIA
+          VIDEOS
         </PortLink>
         <PortLink to="/galeriadefotos">
           <FiCamera />
-          GALERIA
+          FOTOS
         </PortLink>
       </PortIconContainer>
       <PortContainer>
