@@ -35,7 +35,7 @@ export const BoxCardButton = styled.button`
 export const BoxCardLink = styled(NavLink)`
   font-family: 'NexaRegular', sans-serif;
   text-decoration: none;
-  font-size: 0.9em;
+  font-size: 0.95em;
   font-weight: bold;
   color: #489fb5ff;
 
@@ -49,5 +49,9 @@ export const BoxCardLink = styled(NavLink)`
   &:focus {
     text-decoration: none;
     color: #489fb5ff !important;
+  }
+
+  @media (max-width: 480px), handheld and (orientation: landscape) {
+    font-size: 0.7em;
   }
 `

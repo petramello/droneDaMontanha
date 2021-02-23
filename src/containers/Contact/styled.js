@@ -53,7 +53,9 @@ export const Contacts = styled.div`
     padding-top: 12px;
     display: inline-block;
     background-image: url(${blueBrushBackgroung});
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: -340px;
   }
 `
 
@@ -134,7 +136,8 @@ export const MsgArea = styled.textarea`
   font-family: 'NexaLight', sans-serif;
 
   @media (max-width: 480px), handheld and (orientation: landscape) {
-    width: 305px;
+    width: 298px;
+    margin-left: 10px;
   }
 `
 

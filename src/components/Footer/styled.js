@@ -3,7 +3,7 @@ import { IconsContainer } from '../Icons/SocialMedia/styled'
 
 export const FooterContainer = styled.div`
   position: relative;
-  background-color: #16697aff;
+  background-color: #00b5f3;
   font-family: 'NexaLight', sans-serif;
   font-size: 1em;
   text-align: center;
@@ -16,18 +16,19 @@ export const FooterContainer = styled.div`
 export const IconsFooterContainer = styled(IconsContainer)`
   width: 100%;
   display: inline-block;
-  margin: 2% auto 2% 38%;
+  margin: 10px auto 20px 562px;
   text-align: center;
-  justify-self: center;
+  justify-content: center;
+  align-items: center;
 
   @media (max-width: 480px), handheld and (orientation: landscape) {
     padding: 0;
-    margin: 2% auto 4% 25%;
+    margin: 2% auto 4% 28%;
     justify-content: center;
   }
 
   @media (min-width: 1824px) {
-    margin: 2% 25% 4% 42%;
+    margin: 10px auto 20px 800px;
   }
 `
 
@@ -45,7 +46,7 @@ export const DevelopmentLink = styled.a`
 
   &:hover {
     text-decoration: none;
-    color: #82c0ccff !important;
+    color: #ffa62bff !important;
   }
 
   &:active,

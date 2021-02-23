@@ -16,7 +16,11 @@ export const BannerVideoContainer = styled.div`
     width: 100%;
     height: 250px;
     object-fit: fill;
-    margin-top: 100px;
+    margin-top: 25px;
+  }
+
+  @media (min-width: 1824px) {
+    height: 550px;
   }
 `
 
@@ -50,7 +54,7 @@ export const ContactVideo = styled.video`
 export const ContactVideoIframe = styled.iframe`
   display: flex;
   width: 100%;
-  height: 100%;
+  height: 550px;
   position: relative;
   margin: 0;
   padding: 0;
@@ -68,9 +72,16 @@ export const ContactVideoIframe = styled.iframe`
   }
 
   @media (max-width: 480px), handheld and (orientation: landscape) {
-    width: 100%;
-    height: 250px;
-    object-fit: fill;
+    margin-top: 0;
+    padding-top: 0;
+    width: 150%;
+    height: 280px;
+    object-fit: contain;
+  }
+
+  @media (min-width: 1824px) {
+    height: 780px;
+    object-fit: contain;
   }
 `
 
@@ -85,6 +96,10 @@ export const BannerContactTitle = styled.h1`
   @media (max-width: 480px), handheld and (orientation: landscape) {
     top: 120px;
     margin: auto 60px;
+  }
+
+  @media (min-width: 1824px) {
+    top: 270px;
   }
 `
 

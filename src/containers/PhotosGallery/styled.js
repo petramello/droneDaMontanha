@@ -12,5 +12,4 @@ export const GalleryContainer = styled.div`
   @media (min-width: 1824px) {
     margin: 100px 160px;
   }
-\`
 `

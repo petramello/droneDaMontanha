@@ -7,6 +7,8 @@ export const HomeBannerContainer = styled.div`
   align-items: center;
   width: 100%;
   height: 100%;
+  margin-top: 20px;
+  padding: 10px;
   text-decoration: none;
   background-image: url(${bannerTestaItaguare});
   background-size: cover;
@@ -16,6 +18,8 @@ export const HomeBannerContainer = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     height: 380px;
+    margin-top: 0;
+    padding: 0;
   }
 `
 
