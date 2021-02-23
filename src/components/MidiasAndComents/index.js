@@ -5,7 +5,7 @@ import {
   MidiaCard,
   MidiaImgDiv,
   MidiaImg,
-  MidiaVideo,
+  MidiaVideoDiv,
   MidiaResume,
   MidiasContainer,
   MidiaTextContainer,
@@ -39,7 +39,17 @@ const MidiasAndComments = props => {
 
     if (props.portCategory === 'video') {
       return (
-        <MidiaVideo controls width="100%" src={props.portCover} type="video/mp4" alt="Capa do video do portfolio" />
+        <MidiaVideoDiv>
+          <iframe
+            className="youtubePortIframe"
+            src={props.portFrame}
+            frameBorder="0"
+            controls="0"
+            title={props.portTitle}
+            allow=" accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </MidiaVideoDiv>
       )
     }
 

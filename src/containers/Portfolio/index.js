@@ -5,11 +5,11 @@ import { FiCamera } from 'react-icons/fi'
 import MidiasAndComments from '../../components/MidiasAndComents'
 
 import pedraDaMina from '../../assets/imgPortfolio/PicoDaPedraDaMina_SerraDaMantiqueira_1920.jpg'
-import jalapao from '../../assets/videoPortfolio/EssenciaDoBrasil_Jalapao.mp4'
+// import jalapao from '../../assets/videoPortfolio/EssenciaDoBrasil_Jalapao.mp4'
 import picoDoMarinzinho from '../../assets/imgPortfolio/PicoDoMarinzinho_SerraDaMantiqueira_1920.jpg'
-import reencontroMontanha from '../../assets/videoPortfolio/Reecontro - Montanha.mp4'
+// import reencontroMontanha from '../../assets/videoPortfolio/Reecontro - Montanha.mp4'
 import serraFina from '../../assets/imgPortfolio/TravessiaSerraFina_Brasil_1920.jpg'
-import ondeTudoFazSentido from '../../assets/videoPortfolio/Montanha - Onde Tudo faz Sentido.mp4'
+// import ondeTudoFazSentido from '../../assets/videoPortfolio/Montanha - Onde Tudo faz Sentido.mp4'
 import { PortContainer, PortIconContainer, PortLink } from './styled'
 import Banner from '../../components/Banner'
 import { OverHiddenContainer } from '../Home/styled'
@@ -48,32 +48,31 @@ const midias = [
     portDate: '2020'
   },
   {
-    portCover: jalapao,
+    // portCover: jalapao,
     portTitle: 'Essência do Brasil - Jalapão. TO-Brasil',
     portCategory: 'video',
-    portPath: '/videos',
     portId: 'v1',
     portResume:
       'Uma terra das mais exuberantes do planeta. Natureza em estado bruto.\n' +
       'Descobrir os encantos do Jalapão sempre foi um sonho para mim. Cheguei sem saber o que realmente iria encontrar neste passeio alternativo da Cerrado Rupestre.\n' +
       'Foram dias memoráveis que marcou a minha vida, conheci pessoas, aprendi costumes, valorizei os detalhes, paisagens indescritíveis e histórias que vão ficar marcado no meu coração para sempre.',
-    portDate: '2020'
+    portDate: '2020',
+    portFrame: 'https://www.youtube-nocookie.com/embed/6mhDFhcWeRg?rel=0?autoplay=1'
   },
   {
-    portCover: reencontroMontanha,
+    // portCover: reencontroMontanha,
     portTitle: 'Reecontro - Montanha - Serra da Mantiqueira. MG - Brasil ',
     portCategory: 'video',
-    portPath: '/videos',
     portId: 'v2',
     portResume:
       'Reencontro é o nome do vídeo, Pico do Santo Agostinho na Serra da Mantiqueira é um dos cantinhos desconhecido por muitos, e o local que foi realizado as cenas, 𝐼𝑛𝑑𝑒𝑝𝑒𝑛𝑑𝑒𝑛𝑡𝑒 𝑑𝑜 𝑞𝑢𝑒 𝑗𝑎́ 𝑣𝑖𝑣𝑒𝑢, 𝑑𝑎𝑟 𝑖𝑚𝑝𝑜𝑟𝑡𝑎̂𝑛𝑐𝑖𝑎 𝑝𝑎𝑟𝑎 𝑜 𝑞𝑢𝑒 ℎ𝑎́ 𝑑𝑒 𝑣𝑖𝑟 𝑒 𝑜 𝑞𝑢𝑒 ℎ𝑎́ 𝑑𝑒 𝑣𝑖𝑣𝑒𝑟. 𝑅𝐸𝐸𝑁𝐶𝑂𝑁𝑇𝑅𝑂',
-    portDate: '2020'
+    portDate: '2020',
+    portFrame: 'https://www.youtube-nocookie.com/embed/ddUSPXdx0QQ?rel=0?autoplay=1'
   },
   {
-    portCover: ondeTudoFazSentido,
+    // portCover: ondeTudoFazSentido,
     portTitle: 'Montanha - Onde Tudo faz Sentido - Serra da Mantiqueira. MG-Brasil',
     portCategory: 'video',
-    portPath: '/videos',
     portId: 'v2',
     portResume:
       'Amizade é daquelas relações que devemos cultivar e fazer presente e orgulhar-se da\n' +
@@ -82,7 +81,8 @@ const midias = [
       'pensa. Porque amigo, amigo mesmo… tem conexão com a alma da gente. E, por isso, não\n' +
       'é escolha. É apenas as nossas almas juntando os seus pedaços... Gratidão por momentos\n' +
       'marcantes neste Local onde tudo faz Sentido Japa Doido Beiçudo Preto chamado Kazu',
-    portDate: '2020'
+    portDate: '2020',
+    portFrame: 'https://www.youtube-nocookie.com/embed/JTkot3ct9AI?rel=0?autoplay=1'
   }
 ]
 
@@ -132,6 +132,7 @@ export default function Portfolio() {
                 portTitle={midia.portTitle}
                 portCategory={midia.portCategory}
                 portPath={midia.portPath}
+                portFrame={midia.portFrame}
                 portResume={midia.portResume}
                 portDate={midia.portDate}
                 key={midia.portId}

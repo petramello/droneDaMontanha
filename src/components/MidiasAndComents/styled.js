@@ -83,7 +83,7 @@ export const MidiaImg = styled.div`
   }
 `
 
-export const MidiaVideo = styled.video`
+export const MidiaVideoDiv = styled.div`
   width: 400px;
   height: 250px;
   object-fit: fill;
@@ -92,9 +92,24 @@ export const MidiaVideo = styled.video`
     text-decoration: none;
   }
 
+  .youtubePortIframe {
+    width: 400px;
+    height: 100%;
+
+    @media (max-width: 480px), handheld and (orientation: landscape) {
+      width: 100%;
+      height: 200px;
+    }
+
+    @media (min-width: 1824px) {
+      width: 550px;
+      height: 350px;
+    }
+  }
+
   @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 340px;
-    height: 200px;
+    height: 100%;
   }
 
   @media (min-width: 1824px) {

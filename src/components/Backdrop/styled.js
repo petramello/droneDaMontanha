@@ -6,11 +6,13 @@ export const BackdropContainer = styled.div`
   position: fixed;
   top: 35px;
   left: 75%;
-  width: 110px;
+  width: 150px;
   height: 100px;
   margin: 0;
-  padding: 20px 10px 15px 10px;
+  padding: 5px 5px 15px 8px;
   background-color: deepskyblue;
+  opacity: 99%;
+  box-shadow: 0px 0px 10px 5px deepskyblue;
   transition: transform 0.3s ease-in-out;
   font-size: 0.7em;
   line-height: 2.5em;

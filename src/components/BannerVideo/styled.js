@@ -47,6 +47,33 @@ export const ContactVideo = styled.video`
   }
 `
 
+export const ContactVideoIframe = styled.iframe`
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  overflow: hidden;
+  object-fit: fill;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:link,
+  &:visited {
+    text-decoration: none !important;
+    border: none !important;
+  }
+
+  @media (max-width: 480px), handheld and (orientation: landscape) {
+    width: 100%;
+    height: 250px;
+    object-fit: fill;
+  }
+`
+
 export const BannerContactTitle = styled.h1`
   position: absolute;
   top: 180px;

@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const GalleryContainer = styled.div`
+  height: 100%;
   margin: ${props => props.marginGalleryContainer || '40px 140px'};
 
   @media (max-width: 480px), handheld and (orientation: landscape) {
