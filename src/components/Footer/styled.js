@@ -3,7 +3,7 @@ import { IconsContainer } from '../Icons/SocialMedia/styled'
 
 export const FooterContainer = styled.div`
   position: relative;
-  background-color: #00b5f3;
+  background-color: #16697a;
   font-family: 'NexaLight', sans-serif;
   font-size: 1em;
   text-align: center;

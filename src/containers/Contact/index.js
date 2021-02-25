@@ -22,8 +22,8 @@ import {
 } from './styled'
 
 import BannerContactVideo from '../../components/BannerVideo/index'
-// import videoDrone from '../../assets/imgContact/videoDrone.mp4'
-// import { BannerVideoContainer, ContactVideoIframe } from '../../components/BannerVideo/styled'
+import videoDrone from '../../assets/imgContact/videoDrone.mp4'
+import { BannerVideoContainer, ContactVideoIframe } from '../../components/BannerVideo/styled'
 
 export default function Contact() {
   const [contactState, setContactState] = useState({
@@ -69,8 +69,8 @@ export default function Contact() {
   return (
     <div>
       <BannerContactVideo title="CONTATO">
-        {/* <source src={videoDrone} type="video/mp4" alt="Video com drone decolando da mão do filmmaker Samuel Oscar" /> */}
-        {/* Your browser does not support the index tag. */}
+        <source src={videoDrone} type="video/mp4" alt="Video com drone decolando da mão do filmmaker Samuel Oscar" />
+        Your browser does not support the index tag.
       </BannerContactVideo>
 
       <ContactContainer className=" column">

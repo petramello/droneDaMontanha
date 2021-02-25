@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 
-export const VideoContainer = styled.div`
+export const VideoContainer = styled.video`
   display: inline-flex;
   width: 100%;
-  height: 610px;
+  height: fit-content;
   position: relative;
-  margin: 0 auto;
-  padding: 0;
+  margin: 10px auto 100px auto;
+  padding: 5px 0;
   text-decoration: none !important;
   overflow: hidden;
 
@@ -21,7 +21,7 @@ export const VideoContainer = styled.div`
 
   @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 100%;
-    height: 100%;
+    height: 100px;
     margin: 0;
     object-fit: fill;
   }

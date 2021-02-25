@@ -45,7 +45,9 @@ const Home = () => {
         </HomeTitleContainer>
       </header>
 
-      <Video />
+      <Container>
+        <Video />
+      </Container>
 
       <Container>
         <HomeBanner />

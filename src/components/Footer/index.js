@@ -13,7 +13,7 @@ const Footer = () => {
         </DevelopmentLink>
       </CopyrightText>
       <IconsFooterContainer>
-        <IconsSocialMedia iconColor="black" iconHoverColor="#ffa62bff" />
+        <IconsSocialMedia iconColor="#489fb5" iconHoverColor="#ffa62bff" />
       </IconsFooterContainer>
     </FooterContainer>
   )

@@ -16,7 +16,7 @@ const MidiasAndComments = props => {
   const renderMidia = () => {
     if (props.portCategory === 'photo') {
       return (
-        <ImageGroup>
+        <ImageGroup className="button.fullscreen-toggle.toggle--left" style={{ display: 'none' }}>
           <MidiaImg>
             <Image
               src={props.portCover}
