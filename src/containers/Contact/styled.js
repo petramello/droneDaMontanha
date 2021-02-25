@@ -131,7 +131,7 @@ export const Input = styled.input`
 `
 
 export const MsgArea = styled.textarea`
-  width: 72%;
+  width: 365px;
   height: 100px;
   font-family: 'NexaLight', sans-serif;
 

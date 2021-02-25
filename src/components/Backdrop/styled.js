@@ -6,7 +6,7 @@ export const BackdropContainer = styled.div`
   position: fixed;
   top: 35px;
   left: 75%;
-  width: 165px;
+  width: 200px;
   height: 100px;
   margin: 0;
   padding: 5px 5px 12px 8px;

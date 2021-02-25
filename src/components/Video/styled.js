@@ -21,7 +21,7 @@ export const VideoContainer = styled.video`
 
   @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 100%;
-    height: 100px;
+    height: 100%;
     margin: 0;
     object-fit: fill;
   }

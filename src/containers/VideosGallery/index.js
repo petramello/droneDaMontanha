@@ -31,7 +31,7 @@ export default function VideosGallery() {
         <VideoDiv>
           <iframe
             className="youtubeIframe"
-            src="https://www.youtube-nocookie.com/embed/eb1hi6xq678?rel=0?autoplay=1"
+            src="https://www.youtube.com/embed/ywQTmreHUMg?rel=0?autoplay=1"
             frameBorder="0"
             controls="0"
             title="ISTO É BRASIL. Serras Gerais\TO\Brasil"
