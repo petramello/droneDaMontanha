@@ -8,7 +8,7 @@ const BannerContactVideo = ({ children, title, subtitle }) => {
       {/*  {children} */}
       {/* </ContactVideo> */}
       <ContactVideoIframe
-        src="http://player.vimeo.com/video/515849317?muted=1&autoplay=1&loop=1&background=1&autopause=0"
+        src="https://player.vimeo.com/video/515849317?muted=1&autoplay=1&loop=1&background=1&autopause=0"
         frameBorder="0"
         allow="autoplay; fullscreen; picture-in-picture"
         webkitallowfullscreen
