@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "dronedamontanha"
+    "dev": "dronedamontanha-prod",
+    "prod": "dronedamontanha",
   }
 }
