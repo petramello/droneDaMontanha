@@ -15,7 +15,7 @@ export const ContactContainer = styled.section`
   @media (max-width: 480px), handheld and (orientation: landscape) {
     display: inline;
     width: 100%;
-    height: 450px;
+    height: 800px;
     font-size: 0.85em;
   }
 
@@ -30,7 +30,7 @@ export const ContactDiv = styled.div`
 
   @media (max-width: 480px), handheld and (orientation: landscape) {
     margin-top: 50px;
-    height: 200px;
+    height: 550px;
   }
 
   @media (min-width: 1824px) {
@@ -55,6 +55,7 @@ export const Contacts = styled.div`
     background-image: url(${blueBrushBackgroung});
     background-size: contain;
     background-repeat: no-repeat;
+    margin-bottom: -340px;
   }
 `
 
@@ -93,7 +94,6 @@ export const FormContainer = styled.div`
   @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 380px;
     margin: 0;
-    padding-top: 0;
   }
 `
 
@@ -131,12 +131,13 @@ export const Input = styled.input`
 `
 
 export const MsgArea = styled.textarea`
-  width: 365px;
+  width: 72%;
   height: 100px;
   font-family: 'NexaLight', sans-serif;
 
   @media (max-width: 480px), handheld and (orientation: landscape) {
-    width: 305px;
+    width: 298px;
+    margin-left: 10px;
   }
 `
 
