@@ -24,3 +24,5 @@ yarn-error.log*
 
 #ignoring videos
 /src/assets/video*
+/src/assets/imgContact/videoDrone.mp4
+
