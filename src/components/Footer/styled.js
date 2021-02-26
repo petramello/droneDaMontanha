@@ -27,6 +27,18 @@ export const IconsFooterContainer = styled(IconsContainer)`
     justify-content: center;
   }
 
+  @media (max-width: 380px), handheld and (orientation: landscape) {
+    padding: 0;
+    margin: 2% auto 4% 24%;
+    justify-content: center;
+  }
+
+  @media (max-width: 320px), handheld and (orientation: landscape) {
+    padding: 0;
+    margin: 2% auto 4% 20%;
+    justify-content: center;
+  }
+
   @media (min-width: 1824px) {
     margin: 10px auto 20px 800px;
   }
