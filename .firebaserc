@@ -1,6 +1,6 @@
 {
   "projects": {
-    "dev": "dronedamontanha-prod",
+    "dev": "dronedamontanha-dev",
     "prod": "dronedamontanha"
   }
 }
