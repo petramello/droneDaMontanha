@@ -44,6 +44,7 @@ export const VideoIframe = styled.iframe`
   text-decoration: none !important;
   overflow: hidden;
   object-fit: fill;
+  border: none;
   &:hover,
   &:focus,
   &:active,
@@ -54,18 +55,29 @@ export const VideoIframe = styled.iframe`
   }
 
   @media (max-width: 480px), handheld and (orientation: landscape) {
-    display: block;
     width: 100%;
-    height: 340px;
-    margin: -20px auto -110px auto;
-    box-sizing: border-box;
-    top: 0;
+    height: 380px;
+    left: 0%;
+    margin: -15% auto -15% auto;
+    border: none;
+  }
+
+  @media (max-width: 471px), handheld and (orientation: landscape) {
+    height: 375px;
+  }
+
+  @media (max-width: 380px), handheld and (orientation: landscape) {
+    height: 300px;
+  }
+
+  @media (max-width: 320px), handheld and (orientation: landscape) {
+    height: 255px;
   }
 
   @media (min-width: 1824px) {
     height: 1080px;
     object-fit: fill;
-    margin: -20px auto -110px auto;
+    margin: -80px auto -65px auto;
     box-sizing: border-box;
   }
 `
