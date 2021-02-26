@@ -57,13 +57,17 @@ export const VideoIframe = styled.iframe`
   @media (max-width: 480px), handheld and (orientation: landscape) {
     width: 100%;
     height: 380px;
-    left: 0%;
+    left: 0;
     margin: -15% auto -15% auto;
     border: none;
   }
 
   @media (max-width: 471px), handheld and (orientation: landscape) {
     height: 375px;
+  }
+
+  @media (max-width: 420px), handheld and (orientation: landscape) {
+    height: 335px;
   }
 
   @media (max-width: 380px), handheld and (orientation: landscape) {
