@@ -1,6 +1,7 @@
 {
   "projects": {
-    "dev": "dronedamontanha-dev",
-    "prod": "dronedamontanha"
+    "dev": "dronedamontanha-dev-3b12e",
+    "prod": "dronedamontanha",
+    "default": "dronedamontanha-prod"
   }
 }
