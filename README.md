@@ -4,7 +4,7 @@
 
 📑 **About**
 
-The website presents Samuel Oscar's services and prortfolio as Drone da Montanha CEO with the intent to increase her professional exposure and reach more clients. 
+The website presents Samuel Oscar's services and portfolio as Drone da Montanha CEO with the intent to increase her professional exposure and reach more clients. 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 <br>
 <br>
